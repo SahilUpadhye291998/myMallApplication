@@ -12,6 +12,8 @@
     <string name="inside_a_fragment">Inside a fragment</string>
     <string name="inside_a_fragment_2">inside_a_fragment_2</string>
     <string name="secound_fragment">Secound fragment</string>
+    <string name="shop_or_brand_name_please">Shop or Brand Name Please</string>
+    <string name="new_offers">NEW OFFERS</string>
 
     <string-array name="shop">
         <item> </item>

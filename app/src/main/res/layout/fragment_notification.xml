@@ -5,11 +5,25 @@
     android:background="@android:color/holo_orange_light">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/notificationtxt"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:textSize="30sp"
-        android:text="@string/title_notifications"
-        android:layout_centerInParent="true"/>
+        android:text="@string/new_offers"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notificationtxt"
+        android:drawableEnd="@android:drawable/ic_menu_search"
+        android:hint="@string/shop_or_brand_name_please" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_bar" />
 
 </RelativeLayout>
