@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">myMallApplication</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="setting_notification">Settings</string>
+    <string name="heading">Heading</string>
+    <string name="discrption">Discrption</string>
+</resources>
