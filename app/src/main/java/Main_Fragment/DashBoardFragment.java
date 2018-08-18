@@ -17,8 +17,9 @@ import com.example.sahil.mymallapplication.R;
 import java.util.ArrayList;
 import java.util.List;
 
-import DashBoardFragment_Helper.DshBoradTemplate_1;
-import DashBoardFragment_Helper.DshBoradTemplate_2;
+import DashBoardFragment_Helper.EntertainTemplate;
+import DashBoardFragment_Helper.ShopTemplate;
+import DashBoardFragment_Helper.DineTemplate;
 
 
 public class DashBoardFragment extends Fragment {
@@ -45,8 +46,9 @@ public class DashBoardFragment extends Fragment {
 
 
         Adapter adapter = new Adapter(getChildFragmentManager());
-        adapter.addFragment(new DshBoradTemplate_1(), "Today");
-        adapter.addFragment(new DshBoradTemplate_2(), "Week");
+        adapter.addFragment(new ShopTemplate(), "Shop");
+        adapter.addFragment(new DineTemplate(), "Dine");
+        adapter.addFragment(new EntertainTemplate(), "Entertain");
         viewPager.setAdapter(adapter);
 
 
