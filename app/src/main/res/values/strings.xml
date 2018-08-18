@@ -6,4 +6,10 @@
     <string name="setting_notification">Settings</string>
     <string name="heading">Heading</string>
     <string name="discrption">Discrption</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inside_a_fragment">Inside a fragment</string>
+    <string name="inside_a_fragment_2">inside_a_fragment_2</string>
+    <string name="secound_fragment">Secound fragment</string>
 </resources>
