@@ -17,9 +17,9 @@ import com.example.sahil.mymallapplication.R;
 import java.util.ArrayList;
 import java.util.List;
 
-import DashBoardFragment_Helper.EntertainTemplate;
-import DashBoardFragment_Helper.ShopTemplate;
-import DashBoardFragment_Helper.DineTemplate;
+import DashBoardFragment_subFragments.EntertainTemplate;
+import DashBoardFragment_subFragments.ShopTemplate;
+import DashBoardFragment_subFragments.DineTemplate;
 
 
 public class DashBoardFragment extends Fragment {
