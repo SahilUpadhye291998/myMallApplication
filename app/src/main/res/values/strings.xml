@@ -15,6 +15,7 @@
     <string name="shop_or_brand_name_please">Shop or Brand Name Please</string>
     <string name="new_offers">NEW OFFERS</string>
     <string name="nonsense">nonsense</string>
+    <string name="enter_city_name">Enter City name</string>
 
     <string-array name="shop">
         <item> </item>

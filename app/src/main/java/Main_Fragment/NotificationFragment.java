@@ -33,10 +33,6 @@ import NotificationsFragment_Helper.NotificationFragment_RecyclerViewAdapter;
 
 public class NotificationFragment extends Fragment {
 
-    private static final String URL_DATA = "  "; //<<== link to json file
-    private List<ListItem> listItems;
-    private RecyclerView recyclerView;
-    private RecyclerView.Adapter adapter;
 
     @Nullable
     @Override
@@ -57,6 +53,11 @@ public class NotificationFragment extends Fragment {
         return view;
     }
 
+    private static final String URL_DATA = "  "; //<<== link to json file
+    private List<ListItem> listItems;
+    private RecyclerView recyclerView;
+    private RecyclerView.Adapter adapter;
+
     private void loadRecyclerViewData() {
 
         final ProgressDialog progressDialog = new ProgressDialog(getActivity());
@@ -71,7 +72,7 @@ public class NotificationFragment extends Fragment {
                         progressDialog.dismiss();
                         try {
                             JSONObject jsonObject = new JSONObject(response);
-                            JSONArray array = jsonObject.getJSONArray("heroes");
+                            JSONArray array = jsonObject.getJSONArray("");//<=main key for gettnig the value
 
                             for (int i = 0; i < array.length(); i++) {
                                 JSONObject o = array.getJSONObject(i);
@@ -101,4 +102,5 @@ public class NotificationFragment extends Fragment {
 
 
     }
+
 }
